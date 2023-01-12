@@ -54,6 +54,13 @@ export const STARTERS: ReadonlyArray<Starter> = [
     docs: 'https://github.com/rindo-community/rindo-app-starter',
     isCommunity: true,
   },
+  {
+    name: 'navify-pwa',
+    repo: 'rindo-community/rindo-navify-starter',
+    description: 'Navify PWA starter with tabs layout and routes',
+    docs: 'https://github.com/rindo-community/rindo-navify-starter',
+    isCommunity: true,
+  },
 ];
 
 /**

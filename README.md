@@ -18,6 +18,7 @@ The create-rindo CLI offers the following starters for bootstrapping your projec
 teams/individuals looking to reuse components across one or more applications.
 - `app` - allows one to spin up an application, complete with routing. This is a **community-driven** project,
 and is not formally owned by the Rindo team
+- `navify-pwa` - allows one to spin up an Navify PWA, complete with tabs layout and routing. This is a **community-driven** project.
 
 ## Usage
 
@@ -47,6 +48,7 @@ If you are behind a proxy, configure `https_proxy` environment variable.
 ## Built-in starters
 
 - [app (community-maintained)](https://github.com/rindo-community/rindo-app-starter)
+- [navify-pwa (community-maintained)](https://github.com/rindo-community/rindo-navify-starter)
 - [component](https://github.com/navify/rindo-component-starter)
 
 ## Developing locally
