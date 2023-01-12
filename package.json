@@ -1,6 +1,6 @@
 {
   "name": "create-rindo",
-  "version": "3.1.2-0",
+  "version": "3.1.2",
   "description": "Quickly create a new rindo application: npm init rindo",
   "main": "index.js",
   "files": [
