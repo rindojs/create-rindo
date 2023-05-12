@@ -1,6 +1,6 @@
 {
   "name": "create-rindo",
-  "version": "3.1.7-0",
+  "version": "3.1.7",
   "description": "Quickly create a new rindo component project: npm init rindo",
   "main": "index.js",
   "files": [
