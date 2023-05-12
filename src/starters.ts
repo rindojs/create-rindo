@@ -25,7 +25,7 @@ export interface Starter {
    */
   hidden?: boolean;
   /**
-   * When true, the starter is a community-driven project, rather than one owned by Navify
+   * When true, the starter is a community-driven project, rather than one owned by Family
    */
   isCommunity?: boolean;
 }
@@ -36,15 +36,15 @@ export interface Starter {
 export const STARTERS: ReadonlyArray<Starter> = [
   {
     name: 'component',
-    repo: 'navify/rindo-component-starter',
+    repo: 'familyjs/rindo-component-starter',
     description: 'Collection of web components that can be used anywhere',
-    docs: 'https://github.com/navify/rindo-component-starter',
+    docs: 'https://github.com/familyjs/rindo-component-starter',
   },
   {
     name: 'components',
-    repo: 'navify/rindo-component-starter',
+    repo: 'familyjs/rindo-component-starter',
     description: 'Collection of web components that can be used anywhere',
-    docs: 'https://github.com/navify/rindo-component-starter',
+    docs: 'https://github.com/familyjs/rindo-component-starter',
     hidden: true,
   },
   {
@@ -55,10 +55,10 @@ export const STARTERS: ReadonlyArray<Starter> = [
     isCommunity: true,
   },
   {
-    name: 'navify-pwa',
-    repo: 'rindo-community/rindo-navify-starter',
-    description: 'Navify PWA starter with tabs layout and routes',
-    docs: 'https://github.com/rindo-community/rindo-navify-starter',
+    name: 'family-pwa',
+    repo: 'rindo-community/rindo-family-starter',
+    description: 'Family PWA starter with tabs layout and routes',
+    docs: 'https://github.com/rindo-community/rindo-family-starter',
     isCommunity: true,
   },
 ];

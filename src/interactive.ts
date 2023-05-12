@@ -51,7 +51,7 @@ async function askStarterName(): Promise<string> {
       message: `Select a starter project.
 
 Starters marked as ${COMMUNITY_PREFIX} are developed by the Rindo Community,
-rather than Navify. For more information on the Rindo Community, please see
+rather than Family. For more information on the Rindo Community, please see
 https://github.com/rindo-community`,
       choices: getChoices(),
     },
@@ -90,7 +90,7 @@ function getChoices(): ReadonlyArray<{ title: string; value: string }> {
  * @returns the formatted name
  */
 function generateStarterName(starter: Starter): string {
-  // ensure that community packages are differentiated from those supported by Navify/the Rindo team
+  // ensure that community packages are differentiated from those supported by Family/the Rindo team
   return starter.isCommunity ? `${starter.name} ${COMMUNITY_PREFIX}` : starter.name;
 }
 

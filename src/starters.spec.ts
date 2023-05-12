@@ -18,9 +18,9 @@ describe('starters', () => {
 
       expect(starterInfo).toEqual<Starter>({
         description: 'Collection of web components that can be used anywhere',
-        docs: 'https://github.com/navify/rindo-component-starter',
+        docs: 'https://github.com/familyjs/rindo-component-starter',
         name: 'component',
-        repo: 'navify/rindo-component-starter',
+        repo: 'familyjs/rindo-component-starter',
       });
     });
 
