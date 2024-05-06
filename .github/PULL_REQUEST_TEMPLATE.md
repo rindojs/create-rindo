@@ -1,3 +1,5 @@
+<!-- Please refer to our contributing documentation for any questions on submitting a pull request, or let us know here if you need any help: https://github.com/familyjs/rindo/blob/main/.github/CONTRIBUTING.md -->
+
 ## Pull request checklist
 
 Please check if your PR fulfills the following requirements:

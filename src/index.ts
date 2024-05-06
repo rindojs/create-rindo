@@ -5,9 +5,24 @@ import { getStarterRepo } from './starters';
 import { cleanup, nodeVersionWarning } from './utils';
 import { getPkgVersion } from './version';
 
-const USAGE_DOCS = `Usage:
+const USAGE_DOCS = `create-rindo CLI Help
 
-npm init rindo [starter] [project-name]
+This CLI has two operation modes, interactive and command mode.
+
+Interactive Mode Usage:
+
+  npm init rindo
+
+Command Mode Usage:
+
+  npm init rindo [starter] [project-name]
+
+General Use Flags:
+
+  --help - show usage examples for the CLI
+  --info - print the current version of the CLI
+
+Additional Information: https://github.com/familyjs/create-rindo
 `;
 
 async function run() {

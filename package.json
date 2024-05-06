@@ -1,7 +1,11 @@
 {
   "name": "create-rindo",
-  "version": "3.1.7",
+  "version": "3.5.6-0",
   "description": "Quickly create a new rindo component project: npm init rindo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/familyjs/create-rindo"
+  },
   "main": "index.js",
   "files": [
     "index.js"
@@ -31,28 +35,28 @@
     "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "@familyjs/prettier-config": "^2.1.2",
-    "@rollup/plugin-commonjs": "^24.0.0",
+    "@familyjs/prettier-config": "^4.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@types/cli-spinner": "^0.2.0",
-    "@types/jest": "^27.5.1",
-    "@types/node": "^16.18.25",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.1.7",
     "@types/prompts": "^2.0.14",
     "@types/yauzl": "^2.9.1",
     "cli-spinner": "^0.2.10",
     "colorette": "^2.0.20",
-    "https-proxy-agent": "^5.0.0",
-    "jest": "^28.1.0",
-    "np": "^7.6.2",
-    "prettier": "2.8.8",
-    "replace-in-file": "^6.1.0",
-    "rollup": "^3.21.2",
+    "https-proxy-agent": "^7.0.0",
+    "jest": "^29.0.0",
+    "np": "^10.0.0",
+    "prettier": "3.2.5",
+    "replace-in-file": "^7.0.0",
+    "rollup": "^4.0.0",
     "sisteransi": "^1.0.5",
     "terser": "^5.17.1",
-    "ts-jest": "^28.0.3",
-    "typescript": "^4.9.4",
-    "yauzl": "^2.10.0"
+    "ts-jest": "^29.0.0",
+    "typescript": "~5.0.0",
+    "yauzl": "^3.0.0"
   },
   "author": "Family Team",
   "license": "MIT",
@@ -67,7 +71,7 @@
   ],
   "prettier": "@familyjs/prettier-config",
   "volta": {
-    "node": "16.15.0",
-    "npm": "8.11.0"
+    "node": "20.12.2",
+    "npm": "10.6.0"
   }
 }

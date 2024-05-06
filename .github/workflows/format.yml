@@ -1,0 +1,21 @@
+name: Format Create Rindo CLI (Check)
+
+on:
+  workflow_call:
+    # Make this a reusable workflow, no value needed
+    # https://docs.github.com/en/actions/using-workflows/reusing-workflows
+
+jobs:
+  format:
+    name: Check Formatting
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
+
+      - name: Get Core Dependencies
+        uses: ./.github/workflows/actions/get-core-dependencies
+
+      - name: Prettier Check
+        run: npm run prettier.dry-run
+        shell: bash
