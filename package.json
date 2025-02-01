@@ -4,7 +4,7 @@
   "description": "Quickly create a new rindo component project: npm init rindo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/familyjs/create-rindo"
+    "url": "https://github.com/rindojs/create-rindo"
   },
   "main": "index.js",
   "files": [
