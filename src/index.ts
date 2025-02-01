@@ -22,7 +22,7 @@ General Use Flags:
   --help - show usage examples for the CLI
   --info - print the current version of the CLI
 
-Additional Information: https://github.com/familyjs/create-rindo
+Additional Information: https://github.com/rindojs/create-rindo
 `;
 
 async function run() {

@@ -15,7 +15,7 @@ describe('download', () => {
     it('returns true if starter does exist', async () => {
       expect(
         await verifyStarterExists({
-          repo: 'familyjs/rindo',
+          repo: 'rindojs/rindo',
           name: 'rindo',
         }),
       ).toBe(true);
@@ -24,7 +24,7 @@ describe('download', () => {
 
   describe('getStarterUrl', () => {
     it('returns a well formed URL from the given starter', () => {
-      const repo = 'familyjs/mock-rindo-template';
+      const repo = 'rindojs/mock-rindo-template';
       const starter: Starter = {
         name: 'test-starter',
         repo,
