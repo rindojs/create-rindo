@@ -59,7 +59,7 @@ async function askStarterName(): Promise<string> {
 
 Starters marked as ${COMMUNITY_PREFIX} are developed by the Rindo Community,
 rather than Family. For more information on the Rindo Community, please see
-https://github.com/rindo-community`,
+https://github.com/rindojs`,
       choices: getChoices(),
     },
     {

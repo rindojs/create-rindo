@@ -49,16 +49,16 @@ export const STARTERS: ReadonlyArray<Starter> = [
   },
   {
     name: 'app',
-    repo: 'rindo-community/rindo-app-starter',
+    repo: 'rindojs/rindo-app-starter',
     description: 'Minimal starter for building a Rindo app or website',
-    docs: 'https://github.com/rindo-community/rindo-app-starter',
+    docs: 'https://github.com/rindojs/rindo-app-starter',
     isCommunity: true,
   },
   {
     name: 'family-pwa',
-    repo: 'rindo-community/rindo-family-starter',
+    repo: 'rindojs/rindo-family-starter',
     description: 'Family PWA starter with tabs layout and routes',
-    docs: 'https://github.com/rindo-community/rindo-family-starter',
+    docs: 'https://github.com/rindojs/rindo-family-starter',
     isCommunity: true,
   },
 ];
